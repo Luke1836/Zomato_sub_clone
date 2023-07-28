@@ -1,0 +1,67 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+}
+div {
+    display: inline;
+}
+.header {
+    background-color: #f9fafc;
+}
+.d_nav1 {
+    width: 100px;
+}
+
+.d_nav2 {
+    
+    height: 40%;
+   
+}
+
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+.b1 {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    background-size: 100% auto;
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  border-radius: 4px;
+
+}
+
+.b1 :hover {
+    background-image: linear-gradient(
+    to right,
+    #dd2476 0%,
+    #ff512f 51%
+    #ff512f 100%,
+  );
+}
+ 
+.i1{
+    width:100%;
+}
